@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Debug files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+/build
+
+# Coverage directory
+/coverage
+
+# IntelliJ IDEA
+.idea/
+
+# VSCode
+.vscode/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# MacOS system files
+.DS_Store
+
+# Generated files
+yarn.lock
+package-lock.json
+
+# Optional npm cache
+.npm/
+
+# React specific
+/public/static
+/public/manifest.json
+/public/robots.txt
+
+# Test coverage
+coverage/
