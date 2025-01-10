@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+
+# dotenv environment variables
+.env
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# React specific files
+coverage/
+.eslintcache
+
+# Ignore local development files
+*.local
+*.env.*.local
